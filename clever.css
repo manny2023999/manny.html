@@ -1,0 +1,32 @@
+nav{
+    border:1px solid black;
+    text-align: center;   
+}
+ul{
+    list-style-type:none;
+    padding: 15px;
+}
+li{
+    display:inline;
+    padding:30px;
+    font-size: 20px;
+}
+a:hover{
+    color: peachpuff;
+    font-size: larger;
+}
+a:link{
+    text-decoration: none;
+}
+section{
+    text-align:center;
+    margin-top:50px;
+}
+article{
+    text-align:center;
+}
+form{
+    padding:50px;
+    margin-left:30%;
+    width:50px;
+}
