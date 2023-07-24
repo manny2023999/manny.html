@@ -30,3 +30,38 @@ form{
     margin-left:30%;
     width:50px;
 }
+#row1{
+    text-align:center;
+}
+#row2{
+    text-align:center;
+}
+#row3{
+    text-align:center;
+}
+#about{
+    width: 30%;
+    float:left;
+}
+#about p{
+    text-align: justify;
+}
+#edje{
+    width:30%;
+    float:left;
+}
+#kung{
+    border-radius: 50%;
+    width:30%;
+    float:left;
+}
+#kung img{
+    border-radius: 50%;
+}
+article{
+    padding:30px;
+}
+form{
+    text-align:right;
+    
+}
