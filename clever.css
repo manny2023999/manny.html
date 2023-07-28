@@ -23,12 +23,12 @@ section{
     margin-top:50px;
 }
 article{
-    text-align:center;
+    width:100%;
+    background-color: gainsboro;
+    text-align: center;
 }
 form{
-    padding:50px;
-    margin-left:30%;
-    width:50px;
+
 }
 #row1{
     text-align:center;
@@ -41,7 +41,7 @@ form{
 }
 #about{
     width: 30%;
-    float:left;
+    float:left; 
 }
 #about p{
     text-align: justify;
@@ -58,10 +58,10 @@ form{
 #kung img{
     border-radius: 50%;
 }
-article{
+/*article{
     padding:30px;
 }
 form{
     text-align:right;
-    
-}
+
+}*/
