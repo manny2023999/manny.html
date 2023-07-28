@@ -6,33 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 <style>
-.dropdown{
-position: relative;
-display: inline-block;
-}
-
-.dropdown-content{
-display: none;
-position: absolute;
-background-color: rgb(241, 226, 255);
-min-width: 160px;
-box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.9);
-padding: 12px 16px;
-z-index: 1px;
-}
-
-.dropdown:hover .dropdown-content{
-    display: block;
-}
-
-.dropdown-content a{
-color: black;
-display: block;
-padding: 12px 16px;
-}
-
-.dropdown-content a:hover{
-    color: white;
+*{
+  box-sizing: border-box;
 }
 ul{
   list-style-type: none;
@@ -45,9 +20,12 @@ li{
   display: inline;
   padding: 40px;
 }
+article{
+  width:100%;
+}
 article img{
-  width: 350px;
-  height: 300px;
+  width: 550px;
+  height: 550px;
 
   padding: 16%;
 }
@@ -63,9 +41,6 @@ article img{
   float: left;
   width: 31%;
 }
-#form{
-  text-align: center;
-}
  a:link{
   text-decoration: none;
  }
@@ -76,6 +51,22 @@ article img{
   text-align:center;
   margin-top:50px;
  }
+ #main{
+  text-align: center;
+  margin-top: 25px;
+  background-color: gainsboro;
+  display: inline-block;
+  width:100%;
+}
+form{
+  padding: 40px;
+}
+ @media screen and (max-width: 480px) {
+  body {
+    float: none;
+    width: 100%;
+  }
+}
 </style>
 </head>
 <body>
@@ -101,7 +92,7 @@ article img{
    <img src="heart3.png">
   </div>
 </article>
-<div id="form">
+<div id="main">
   <h1>Exclusive Content</h1>
   <p>Sign up to receive giveaways, healthy tips, FREE downloads, and more!</p>
 <form>
