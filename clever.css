@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 nav{
     border:1px solid black;
     text-align: center;   
@@ -24,11 +27,7 @@ section{
 }
 article{
     width:100%;
-    background-color: gainsboro;
     text-align: center;
-}
-form{
-
 }
 #row1{
     text-align:center;
@@ -42,6 +41,7 @@ form{
 #about{
     width: 30%;
     float:left; 
+    margin: 20px;
 }
 #about p{
     text-align: justify;
@@ -49,19 +49,31 @@ form{
 #edje{
     width:30%;
     float:left;
+    padding: 20px;
 }
 #kung{
-    border-radius: 50%;
     width:30%;
     float:left;
 }
 #kung img{
     border-radius: 50%;
 }
-/*article{
+article{
     padding:30px;
 }
-form{
-    text-align:right;
-
-}*/
+.lalisa{
+    float:left;
+    text-align: center;
+    background-color: gainsboro;
+    padding: 10px;
+    width:100%;
+}
+#articlee{
+    width:100%;
+    float:left;
+}
+#sim{
+    text-align:center;
+    background-color: gainsboro;
+    padding:8px;
+}
